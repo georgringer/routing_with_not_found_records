@@ -1,0 +1,32 @@
+{
+	"name": "georgringer/routing-with-not-found-records",
+	"type": "typo3-cms-extension",
+	"description": "Allow not found records in PersistedAliasMapper",
+	"license": "GPL-2.0+",
+	"keywords": [
+		"TYPO3",
+		"extension",
+		"routing"
+	],
+	"homepage": "https://ringer.it",
+	"authors": [
+		{
+			"name": "Georg Ringer",
+			"role": "Developer",
+			"homepage": "https://ringer.it"
+		}
+	],
+	"require": {
+		"typo3/cms-core": "^10 || ^11"
+	},
+	"autoload": {
+		"psr-4": {
+			"GeorgRinger\\RoutingWithNotFoundRecords\\": "Classes"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "routing_with_not_found_records"
+		}
+	}
+}
