@@ -15,6 +15,6 @@ class PersistedAliasMapperWithNotFoundRecords extends PersistedAliasMapper
     {
         $value = parent::resolve($value);
 
-        return is_string($value) ? $value : '0';
+        return is_string($value) ? $value : '-1';
     }
 }
